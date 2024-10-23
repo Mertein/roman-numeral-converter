@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: Georgia, serif;
+  background-color: #0a0a29;
+  color: white;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+fieldset {
+  display: flex;
+  padding: 25px;
+  margin: 10px 20px;
+  border: 3px solid gray;
+  width: 300px;
+  flex-direction: column;
+  gap: 10px 0;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px 0;
+  justify-items:center;
+  align-content:center;
+}
+
+
+label {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+
+h1 {
+  font-size: 2.5rem;
+  font-style: oblique;
+  text-align: center;
+  font-weight: lighter;
+}
+
+
+input {
+  border: 0 none;
+  padding: 5px;
+}
+
+
+button {
+  cursor: pointer;
+  border: 5px solid #d5b350;
+  padding: 12px;
+  background-color: #d5b338;
+  color: black;
+  font-weight: bold;
+}
+
+.output-container {
+  margin-top: 10px;
+  border: 3px solid gray;
+  width: 300px;
+  padding: 5px;
+  text-align:center;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.success {
+  background-color: green;
+}
+
+.error {
+  background-color: red;
+}
